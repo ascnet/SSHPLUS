@@ -102,8 +102,6 @@ fun_bar() {
     echo -e "\033[1;33m]\033[1;37m -\033[1;32m OK !\033[1;37m"
     tput cnorm
     }
-}
-
 otimize_python() {
     # INSTALA PYTHON AO PYTHON2
     apt-get install python -y >/dev/null 2>&1
